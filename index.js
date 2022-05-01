@@ -8,6 +8,9 @@ app.use(cors());
 app.get("/", (req, res) => {
   res.send("my node is starting now very simple server is ready");
 });
+app.get("/hero", (req, res) => {
+  res.send("my hero ser is running successfully");
+});
 
 const users = [
   {
